@@ -1,0 +1,458 @@
+{
+  "schema": 1,
+  "movies": [
+    {
+      "id": "two-survivors",
+      "title": "Two Survivors",
+      "tagline": "In a world that ended, trust is the last thing left to lose.",
+      "synopsis": "Two strangers cross a ruined world, bound by necessity and haunted by what each of them is hiding.",
+      "description": "Two strangers cross a ruined world, bound by necessity and haunted by what each of them is hiding.",
+      "genre": [
+        "Post-Apocalyptic",
+        "Survival",
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "featured": true,
+      "tags": [
+        "survival",
+        "wasteland",
+        "emotional"
+      ],
+      "order": 1,
+      "type": "web",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/two-survivors/",
+      "watchUrl": "/watch/two-survivors",
+      "artwork": {},
+      "subtitles": [],
+      "progress": false,
+      "theme": {
+        "primary": "#9a8f7c",
+        "secondary": "#4a5560",
+        "accent": "#d6a35c",
+        "atmosphere": "ruins",
+        "particles": "dust"
+      },
+      "sourcePresent": false,
+      "status": "missing",
+      "statusReason": "This movie has not been added yet. Create movies/two-survivors/ with a movie.json and its project source."
+    },
+    {
+      "id": "threejs-cinematic-film-development",
+      "title": "TWO SURVIVORS",
+      "tagline": "When the whole world disappeared, two strangers became each other's only reason to survive.",
+      "synopsis": "Five years after the Day of Silence, a lone paramedic and a radio technician meet in the ruins of a supermarket. A transmission repeats every night at 11:47. Together they travel toward Station 17 — and toward a truth that isn't the truth.",
+      "description": "Five years after the Day of Silence, a lone paramedic and a radio technician meet in the ruins of a supermarket. A transmission repeats every night at 11:47. Together they travel toward Station 17 — and toward a truth that isn't the truth.",
+      "genre": [
+        "Post-apocalyptic",
+        "Survival",
+        "Mystery",
+        "Thriller",
+        "Emotional drama"
+      ],
+      "featured": true,
+      "tags": [
+        "survival",
+        "wasteland",
+        "emotional",
+        "transmission",
+        "station-17"
+      ],
+      "order": 1,
+      "addedAt": "2026-11-24",
+      "type": "web",
+      "framework": "vite + react + three",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/threejs-cinematic-film-development/",
+      "watchUrl": "/watch/threejs-cinematic-film-development",
+      "artwork": {},
+      "subtitles": [],
+      "progress": true,
+      "theme": {
+        "primary": "#9a8f7c",
+        "secondary": "#4a5560",
+        "accent": "#d6a35c",
+        "atmosphere": "ruins",
+        "particles": "dust"
+      },
+      "sourcePresent": true,
+      "status": "ready",
+      "statusReason": ""
+    },
+    {
+      "id": "3d-animated-movie-prompt",
+      "title": "Before the Last Goodbye — an animated romantic drama",
+      "tagline": "She promised she would never leave. He never knew she had already said goodbye.",
+      "synopsis": "Ryan has waited for the right moment. Anya arrives at the station with an umbrella and a story, and the first ordinary days of a shared journey begin to feel extraordinary. A real-time 3D romantic drama about love, memory and the small moments that define a life.",
+      "description": "Ryan has waited for the right moment. Anya arrives at the station with an umbrella and a story, and the first ordinary days of a shared journey begin to feel extraordinary. A real-time 3D romantic drama about love, memory and the small moments that define a life.",
+      "genre": [
+        "Romance",
+        "Drama",
+        "Animated"
+      ],
+      "featured": true,
+      "tags": [
+        "romance",
+        "drama",
+        "short-film",
+        "water",
+        "umbrella",
+        "station"
+      ],
+      "order": 2,
+      "addedAt": "2026-11-24",
+      "type": "web",
+      "framework": "vite + react + react-three-fiber",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/3d-animated-movie-prompt/",
+      "watchUrl": "/watch/3d-animated-movie-prompt",
+      "artwork": {},
+      "subtitles": [],
+      "progress": true,
+      "theme": {
+        "primary": "#e8c99a",
+        "secondary": "#b35a6c",
+        "accent": "#e6a63b",
+        "atmosphere": "romance",
+        "particles": "bokeh"
+      },
+      "sourcePresent": true,
+      "status": "ready",
+      "statusReason": ""
+    },
+    {
+      "id": "the-skinwalker",
+      "title": "The Skinwalker",
+      "tagline": "Something in the forest wears a familiar face.",
+      "synopsis": "A supernatural presence stalks the dark woods, and the line between fear and reality begins to dissolve.",
+      "description": "A supernatural presence stalks the dark woods, and the line between fear and reality begins to dissolve.",
+      "genre": [
+        "Horror",
+        "Supernatural",
+        "Thriller",
+        "Mystery"
+      ],
+      "featured": true,
+      "tags": [
+        "forest",
+        "folklore",
+        "psychological"
+      ],
+      "order": 2,
+      "type": "web",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/the-skinwalker/",
+      "watchUrl": "/watch/the-skinwalker",
+      "artwork": {},
+      "subtitles": [],
+      "progress": false,
+      "theme": {
+        "primary": "#3f8f7a",
+        "secondary": "#1d3a4a",
+        "accent": "#b9d8ff",
+        "atmosphere": "forest",
+        "particles": "fog"
+      },
+      "sourcePresent": false,
+      "status": "missing",
+      "statusReason": "This movie has not been added yet. Create movies/the-skinwalker/ with a movie.json and its project source."
+    },
+    {
+      "id": "egyptian-mythology-film-production",
+      "title": "The Gods of Ancient Egypt — A 3D Mythology Film",
+      "tagline": "Before history, there were gods.",
+      "synopsis": "A narrated 3D animated mythology film about the gods of ancient Egypt: Atum creates the Ogdoad and the Ennead of Heliopolis, the sun god Ra journeys through the heavens, and Horus rises as the Falcon King.",
+      "description": "A narrated 3D animated mythology film about the gods of ancient Egypt: Atum creates the Ogdoad and the Ennead of Heliopolis, the sun god Ra journeys through the heavens, and Horus rises as the Falcon King.",
+      "genre": [
+        "Mythology",
+        "Action",
+        "Adventure",
+        "Ancient Legends"
+      ],
+      "featured": true,
+      "tags": [
+        "egypt",
+        "gods",
+        "Ra",
+        "Osiris",
+        "Horus",
+        "falcon"
+      ],
+      "order": 3,
+      "addedAt": "2026-11-24",
+      "type": "web",
+      "framework": "vite + react + react-three-fiber",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/egyptian-mythology-film-production/",
+      "watchUrl": "/watch/egyptian-mythology-film-production",
+      "artwork": {},
+      "subtitles": [],
+      "progress": true,
+      "theme": {
+        "primary": "#f2b84b",
+        "secondary": "#8a4b14",
+        "accent": "#3ec6c6",
+        "atmosphere": "egypt",
+        "particles": "sand"
+      },
+      "sourcePresent": true,
+      "status": "ready",
+      "statusReason": ""
+    },
+    {
+      "id": "the-last-call",
+      "title": "The Last Call",
+      "tagline": "One phone call. One chance to understand.",
+      "synopsis": "A single call pulls a stranger into a night of secrets, crime and psychological tension in a rain-soaked city.",
+      "description": "A single call pulls a stranger into a night of secrets, crime and psychological tension in a rain-soaked city.",
+      "genre": [
+        "Thriller",
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "featured": true,
+      "tags": [
+        "noir",
+        "city",
+        "psychological"
+      ],
+      "order": 3,
+      "type": "web",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/the-last-call/",
+      "watchUrl": "/watch/the-last-call",
+      "artwork": {},
+      "subtitles": [],
+      "progress": false,
+      "theme": {
+        "primary": "#3d7bff",
+        "secondary": "#2a1d5c",
+        "accent": "#ff4f9a",
+        "atmosphere": "noir",
+        "particles": "rain"
+      },
+      "sourcePresent": false,
+      "status": "missing",
+      "statusReason": "This movie has not been added yet. Create movies/the-last-call/ with a movie.json and its project source."
+    },
+    {
+      "id": "before-the-last-goodbye",
+      "title": "Before the Last Goodbye",
+      "tagline": "Some stories are only understood at the end.",
+      "synopsis": "A tender, mysterious story of love and memory, told in the moments before everything changes.",
+      "description": "A tender, mysterious story of love and memory, told in the moments before everything changes.",
+      "genre": [
+        "Romance",
+        "Drama",
+        "Mystery"
+      ],
+      "featured": true,
+      "tags": [
+        "love",
+        "memory",
+        "emotional"
+      ],
+      "order": 4,
+      "type": "web",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/before-the-last-goodbye/",
+      "watchUrl": "/watch/before-the-last-goodbye",
+      "artwork": {},
+      "subtitles": [],
+      "progress": false,
+      "theme": {
+        "primary": "#ff8a5c",
+        "secondary": "#8a2f6d",
+        "accent": "#ffd29a",
+        "atmosphere": "romance",
+        "particles": "bokeh"
+      },
+      "sourcePresent": false,
+      "status": "missing",
+      "statusReason": "This movie has not been added yet. Create movies/before-the-last-goodbye/ with a movie.json and its project source."
+    },
+    {
+      "id": "skinwalker-horror-movie-development",
+      "title": "THE SKINWALKER — A 3D Supernatural Horror Film",
+      "tagline": "If you hear someone calling your name in the forest, make sure it's really them.",
+      "synopsis": "A 3D supernatural horror film set in Blackwood Forest — Adam and Lena reach the cabin at dusk, and something in the woods wears a familiar face, so you hear it calling your name.",
+      "description": "A 3D supernatural horror film set in Blackwood Forest — Adam and Lena reach the cabin at dusk, and something in the woods wears a familiar face, so you hear it calling your name.",
+      "genre": [
+        "Horror",
+        "Supernatural",
+        "Thriller",
+        "Mystery"
+      ],
+      "featured": true,
+      "tags": [
+        "forest",
+        "folklore",
+        "psychological",
+        "cabin",
+        "night"
+      ],
+      "order": 4,
+      "addedAt": "2026-11-24",
+      "type": "web",
+      "framework": "vite + react + three",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/skinwalker-horror-movie-development/",
+      "watchUrl": "/watch/skinwalker-horror-movie-development",
+      "artwork": {},
+      "subtitles": [],
+      "progress": true,
+      "theme": {
+        "primary": "#3f8f7a",
+        "secondary": "#1d3a4a",
+        "accent": "#b9d8ff",
+        "atmosphere": "forest",
+        "particles": "fog"
+      },
+      "sourcePresent": true,
+      "status": "ready",
+      "statusReason": ""
+    },
+    {
+      "id": "gods-of-ancient-egypt",
+      "title": "The Gods of Ancient Egypt",
+      "tagline": "Before history, there were gods.",
+      "synopsis": "An epic of ancient legends, where gods, kings and monumental temples collide beneath a golden desert sky.",
+      "description": "An epic of ancient legends, where gods, kings and monumental temples collide beneath a golden desert sky.",
+      "genre": [
+        "Mythology",
+        "Action",
+        "Adventure",
+        "Ancient Legends"
+      ],
+      "featured": true,
+      "tags": [
+        "egypt",
+        "gods",
+        "epic"
+      ],
+      "order": 5,
+      "type": "web",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/gods-of-ancient-egypt/",
+      "watchUrl": "/watch/gods-of-ancient-egypt",
+      "artwork": {},
+      "subtitles": [],
+      "progress": false,
+      "theme": {
+        "primary": "#f2b84b",
+        "secondary": "#8a4b14",
+        "accent": "#3ec6c6",
+        "atmosphere": "egypt",
+        "particles": "sand"
+      },
+      "sourcePresent": false,
+      "status": "missing",
+      "statusReason": "This movie has not been added yet. Create movies/gods-of-ancient-egypt/ with a movie.json and its project source."
+    },
+    {
+      "id": "the-last-call-movie-development",
+      "title": "THE LAST CALL — a 3D animated psychological thriller",
+      "tagline": "One phone call. One chance to understand.",
+      "synopsis": "A 3D animated psychological thriller about a night of secrets: 'The Second Call' follows Detective Collins through a rain-soaked city and an abandoned telephone exchange to the hidden truth behind the final call.",
+      "description": "A 3D animated psychological thriller about a night of secrets: 'The Second Call' follows Detective Collins through a rain-soaked city and an abandoned telephone exchange to the hidden truth behind the final call.",
+      "genre": [
+        "Thriller",
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "featured": true,
+      "tags": [
+        "noir",
+        "city",
+        "psychological",
+        "phone",
+        "mystery"
+      ],
+      "order": 5,
+      "addedAt": "2026-11-24",
+      "type": "web",
+      "framework": "vite + react + react-three-fiber",
+      "build": {
+        "adapter": "vite",
+        "outputDir": "dist",
+        "env": {},
+        "spa": false
+      },
+      "entry": "",
+      "hostPath": "/movies/the-last-call-movie-development/",
+      "watchUrl": "/watch/the-last-call-movie-development",
+      "artwork": {},
+      "subtitles": [],
+      "progress": true,
+      "theme": {
+        "primary": "#3d7bff",
+        "secondary": "#2a1d5c",
+        "accent": "#ff4f9a",
+        "atmosphere": "noir",
+        "particles": "rain"
+      },
+      "sourcePresent": true,
+      "status": "ready",
+      "statusReason": ""
+    }
+  ],
+  "diagnostics": []
+}

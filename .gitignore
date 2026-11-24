@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env
+next-env.d.ts
+*.tsbuildinfo
+
+# Movie Universe generated output (rebuilt by `node scripts/movies.mjs build`)
+/public/movies
+/public/movie-art
+.movie-cache
+movies/*/node_modules
+movies/*/dist
+movies/*/.next

@@ -1,0 +1,6 @@
+{
+  "_readme": "Drop recorded audio into this folder and list it here. Keys: dialogue = line id (e.g. s03_phone_2) -> file; music = cue id (mystery, daniel, investigation, tension, underground, revelation, ending, credits, sting) -> file; sfx = effect name -> file. Missing entries fall back to the built-in synthesizer / browser SpeechSynthesis. Nothing is reported as loaded unless the file actually decodes.",
+  "dialogue": {},
+  "music": {},
+  "sfx": {}
+}

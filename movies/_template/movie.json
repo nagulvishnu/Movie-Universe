@@ -1,0 +1,40 @@
+{
+  "id": "my-movie",
+  "title": "My Movie",
+  "tagline": "A short cinematic line.",
+  "synopsis": "Required. One or two sentences shown on cards and the hero.",
+  "description": "Optional longer description. Defaults to the synopsis.",
+  "genre": ["Drama", "Mystery"],
+  "tags": ["optional", "search", "keywords"],
+  "releaseYear": 2026,
+  "runtime": 24,
+  "featured": false,
+  "status": "published",
+  "order": 10,
+  "addedAt": "2026-01-01",
+
+  "poster": "public/poster.jpg",
+  "backdrop": "public/backdrop.jpg",
+  "thumbnail": "public/thumb.jpg",
+  "trailer": "",
+
+  "type": "web",
+  "framework": "vite + react + three",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist",
+    "spa": false
+  },
+
+  "progress": { "enabled": false },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#4f7cff",
+    "secondary": "#7a3cff",
+    "accent": "#f5c46b",
+    "atmosphere": "cosmic",
+    "particles": "motes"
+  }
+}

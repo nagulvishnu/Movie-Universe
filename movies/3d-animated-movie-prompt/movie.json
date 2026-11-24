@@ -1,0 +1,30 @@
+{
+  "id": "3d-animated-movie-prompt",
+  "title": "Before the Last Goodbye — an animated romantic drama",
+  "tagline": "She promised she would never leave. He never knew she had already said goodbye.",
+  "synopsis": "Ryan has waited for the right moment. Anya arrives at the station with an umbrella and a story, and the first ordinary days of a shared journey begin to feel extraordinary. A real-time 3D romantic drama about love, memory and the small moments that define a life.",
+  "genre": ["Romance", "Drama", "Animated"],
+  "tags": ["romance", "drama", "short-film", "water", "umbrella", "station"],
+  "addedAt": "2026-11-24",
+  "featured": true,
+  "order": 2,
+
+  "type": "web",
+  "framework": "vite + react + react-three-fiber",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist"
+  },
+
+  "progress": { "enabled": true },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#e8c99a",
+    "secondary": "#b35a6c",
+    "accent": "#e6a63b",
+    "atmosphere": "romance",
+    "particles": "bokeh"
+  }
+}

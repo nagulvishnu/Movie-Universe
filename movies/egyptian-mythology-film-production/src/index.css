@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; background: #000; overflow: hidden; }
+body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+.title-font { font-family: "Cinzel", "Trajan Pro", "Optima", "Palatino Linotype", Georgia, serif; }
+.caption { animation: capIn .35s ease-out both; }
+@keyframes capIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+input[type="range"].vol { appearance: auto; }
+canvas { display: block; outline: none; }

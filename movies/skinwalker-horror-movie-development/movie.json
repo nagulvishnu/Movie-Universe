@@ -1,0 +1,30 @@
+{
+  "id": "skinwalker-horror-movie-development",
+  "title": "THE SKINWALKER — A 3D Supernatural Horror Film",
+  "tagline": "If you hear someone calling your name in the forest, make sure it's really them.",
+  "synopsis": "A 3D supernatural horror film set in Blackwood Forest — Adam and Lena reach the cabin at dusk, and something in the woods wears a familiar face, so you hear it calling your name.",
+  "genre": ["Horror", "Supernatural", "Thriller", "Mystery"],
+  "tags": ["forest", "folklore", "psychological", "cabin", "night"],
+  "addedAt": "2026-11-24",
+  "featured": true,
+  "order": 4,
+
+  "type": "web",
+  "framework": "vite + react + three",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist"
+  },
+
+  "progress": { "enabled": true },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#3f8f7a",
+    "secondary": "#1d3a4a",
+    "accent": "#b9d8ff",
+    "atmosphere": "forest",
+    "particles": "fog"
+  }
+}

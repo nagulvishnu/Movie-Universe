@@ -1,0 +1,30 @@
+{
+  "id": "egyptian-mythology-film-production",
+  "title": "The Gods of Ancient Egypt — A 3D Mythology Film",
+  "tagline": "Before history, there were gods.",
+  "synopsis": "A narrated 3D animated mythology film about the gods of ancient Egypt: Atum creates the Ogdoad and the Ennead of Heliopolis, the sun god Ra journeys through the heavens, and Horus rises as the Falcon King.",
+  "genre": ["Mythology", "Action", "Adventure", "Ancient Legends"],
+  "tags": ["egypt", "gods", "Ra", "Osiris", "Horus", "falcon"],
+  "addedAt": "2026-11-24",
+  "featured": true,
+  "order": 3,
+
+  "type": "web",
+  "framework": "vite + react + react-three-fiber",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist"
+  },
+
+  "progress": { "enabled": true },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#f2b84b",
+    "secondary": "#8a4b14",
+    "accent": "#3ec6c6",
+    "atmosphere": "egypt",
+    "particles": "sand"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "two-survivors",
+    "order": 1,
+    "title": "Two Survivors",
+    "tagline": "In a world that ended, trust is the last thing left to lose.",
+    "synopsis": "Two strangers cross a ruined world, bound by necessity and haunted by what each of them is hiding.",
+    "genre": ["Post-Apocalyptic", "Survival", "Mystery", "Thriller", "Drama"],
+    "tags": ["survival", "wasteland", "emotional"],
+    "featured": true,
+    "theme": { "primary": "#9a8f7c", "secondary": "#4a5560", "accent": "#d6a35c", "atmosphere": "ruins", "particles": "dust" }
+  },
+  {
+    "id": "the-skinwalker",
+    "order": 2,
+    "title": "The Skinwalker",
+    "tagline": "Something in the forest wears a familiar face.",
+    "synopsis": "A supernatural presence stalks the dark woods, and the line between fear and reality begins to dissolve.",
+    "genre": ["Horror", "Supernatural", "Thriller", "Mystery"],
+    "tags": ["forest", "folklore", "psychological"],
+    "featured": true,
+    "theme": { "primary": "#3f8f7a", "secondary": "#1d3a4a", "accent": "#b9d8ff", "atmosphere": "forest", "particles": "fog" }
+  },
+  {
+    "id": "the-last-call",
+    "order": 3,
+    "title": "The Last Call",
+    "tagline": "One phone call. One chance to understand.",
+    "synopsis": "A single call pulls a stranger into a night of secrets, crime and psychological tension in a rain-soaked city.",
+    "genre": ["Thriller", "Mystery", "Crime", "Drama"],
+    "tags": ["noir", "city", "psychological"],
+    "featured": true,
+    "theme": { "primary": "#3d7bff", "secondary": "#2a1d5c", "accent": "#ff4f9a", "atmosphere": "noir", "particles": "rain" }
+  },
+  {
+    "id": "before-the-last-goodbye",
+    "order": 4,
+    "title": "Before the Last Goodbye",
+    "tagline": "Some stories are only understood at the end.",
+    "synopsis": "A tender, mysterious story of love and memory, told in the moments before everything changes.",
+    "genre": ["Romance", "Drama", "Mystery"],
+    "tags": ["love", "memory", "emotional"],
+    "featured": true,
+    "theme": { "primary": "#ff8a5c", "secondary": "#8a2f6d", "accent": "#ffd29a", "atmosphere": "romance", "particles": "bokeh" }
+  },
+  {
+    "id": "gods-of-ancient-egypt",
+    "order": 5,
+    "title": "The Gods of Ancient Egypt",
+    "tagline": "Before history, there were gods.",
+    "synopsis": "An epic of ancient legends, where gods, kings and monumental temples collide beneath a golden desert sky.",
+    "genre": ["Mythology", "Action", "Adventure", "Ancient Legends"],
+    "tags": ["egypt", "gods", "epic"],
+    "featured": true,
+    "theme": { "primary": "#f2b84b", "secondary": "#8a4b14", "accent": "#3ec6c6", "atmosphere": "egypt", "particles": "sand" }
+  }
+]

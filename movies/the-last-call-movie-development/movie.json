@@ -1,0 +1,30 @@
+{
+  "id": "the-last-call-movie-development",
+  "title": "THE LAST CALL — a 3D animated psychological thriller",
+  "tagline": "One phone call. One chance to understand.",
+  "synopsis": "A 3D animated psychological thriller about a night of secrets: 'The Second Call' follows Detective Collins through a rain-soaked city and an abandoned telephone exchange to the hidden truth behind the final call.",
+  "genre": ["Thriller", "Mystery", "Crime", "Drama"],
+  "tags": ["noir", "city", "psychological", "phone", "mystery"],
+  "addedAt": "2026-11-24",
+  "featured": true,
+  "order": 5,
+
+  "type": "web",
+  "framework": "vite + react + react-three-fiber",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist"
+  },
+
+  "progress": { "enabled": true },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#3d7bff",
+    "secondary": "#2a1d5c",
+    "accent": "#ff4f9a",
+    "atmosphere": "noir",
+    "particles": "rain"
+  }
+}

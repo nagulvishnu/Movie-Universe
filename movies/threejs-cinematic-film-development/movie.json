@@ -1,0 +1,30 @@
+{
+  "id": "threejs-cinematic-film-development",
+  "title": "TWO SURVIVORS",
+  "tagline": "When the whole world disappeared, two strangers became each other's only reason to survive.",
+  "synopsis": "Five years after the Day of Silence, a lone paramedic and a radio technician meet in the ruins of a supermarket. A transmission repeats every night at 11:47. Together they travel toward Station 17 — and toward a truth that isn't the truth.",
+  "genre": ["Post-apocalyptic", "Survival", "Mystery", "Thriller", "Emotional drama"],
+  "tags": ["survival", "wasteland", "emotional", "transmission", "station-17"],
+  "addedAt": "2026-11-24",
+  "featured": true,
+  "order": 1,
+
+  "type": "web",
+  "framework": "vite + react + three",
+  "entry": "",
+  "build": {
+    "adapter": "vite",
+    "outputDir": "dist"
+  },
+
+  "progress": { "enabled": true },
+  "subtitles": [],
+
+  "theme": {
+    "primary": "#9a8f7c",
+    "secondary": "#4a5560",
+    "accent": "#d6a35c",
+    "atmosphere": "ruins",
+    "particles": "dust"
+  }
+}

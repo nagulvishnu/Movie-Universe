@@ -1,0 +1,286 @@
+@import "tailwindcss";
+@source not "../../movies";
+@source not "../../scripts";
+
+@theme {
+  --font-display: var(--font-cinzel), "Trajan Pro", Georgia, serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --color-void: #02030a;
+  --color-navy: #070b1f;
+  --color-violet: #6a2cff;
+  --color-electric: #4f86ff;
+  --color-magenta: #ff3fb4;
+  --color-gold: #f5c46b;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+html {
+  background: #02030a;
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+body {
+  background: #02030a;
+  color: #f4f6ff;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: rgba(245, 196, 107, 0.35);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#2a3cff55, #8a2cff55);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #02030a;
+}
+
+:focus-visible {
+  outline: 2px solid #f5c46b;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.display {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.metal-text {
+  background: linear-gradient(180deg, #ffffff 0%, #cfd8ff 45%, #8fa2ff 62%, #f5c46b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(160, 180, 255, 0.16);
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 10, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Holographic animated border: apply to an element with `position: relative` */
+.holo-border {
+  position: relative;
+}
+.holo-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle), transparent 0%, var(--b1, #4f86ff) 18%, transparent 36%, var(--b2, #f5c46b) 60%, transparent 80%, var(--b1, #4f86ff) 100%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: spin-angle 7s linear infinite;
+  pointer-events: none;
+  opacity: 0.85;
+}
+@keyframes spin-angle {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.btn-primary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #0a0a14;
+  background: linear-gradient(135deg, #ffe3a6, #f5c46b 55%, #d9962f);
+  box-shadow: 0 0 30px rgba(245, 196, 107, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: transform 0.25s, box-shadow 0.25s, filter 0.25s;
+}
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 0 46px rgba(245, 196, 107, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.btn-primary[aria-disabled="true"] {
+  filter: grayscale(0.7) brightness(0.7);
+  box-shadow: none;
+}
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #e8ecff;
+  border: 1px solid rgba(160, 180, 255, 0.35);
+  background: rgba(20, 28, 70, 0.35);
+  backdrop-filter: blur(10px);
+  transition: background 0.25s, border-color 0.25s, transform 0.25s;
+}
+.btn-ghost:hover {
+  background: rgba(60, 80, 200, 0.35);
+  border-color: rgba(190, 205, 255, 0.7);
+  transform: translateY(-2px);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(160, 180, 255, 0.28);
+  background: rgba(30, 40, 100, 0.3);
+  color: #cdd6ff;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+a.chip:hover,
+button.chip:hover,
+.chip[data-active="true"] {
+  background: rgba(245, 196, 107, 0.18);
+  border-color: rgba(245, 196, 107, 0.7);
+  color: #ffe3a6;
+}
+
+/* Intro gating. A CSS fallback guarantees content appears even if JS fails. */
+.intro-gated {
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+.intro-gated[data-hidden="true"] {
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  animation: gate-open 0.01s 7s forwards;
+}
+@keyframes gate-open {
+  to {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+}
+.intro-overlay {
+  animation: gate-close 0.01s 8s forwards;
+}
+@keyframes gate-close {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* CSS fallback universe (no WebGL) */
+.css-universe-stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(1.5px 1.5px at 10% 20%, #fff, transparent), radial-gradient(1px 1px at 30% 70%, #9db8ff, transparent),
+    radial-gradient(1.5px 1.5px at 55% 35%, #fff, transparent), radial-gradient(1px 1px at 75% 80%, #ffe2a8, transparent),
+    radial-gradient(1.5px 1.5px at 90% 15%, #c9a6ff, transparent), radial-gradient(1px 1px at 45% 90%, #fff, transparent);
+  background-size: 340px 340px;
+  animation: drift 90s linear infinite;
+  opacity: 0.8;
+}
+.css-universe-portal {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  width: min(60vw, 560px);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 240, 210, 0.7) 0%, var(--c1) 22%, var(--c2) 48%, transparent 70%);
+  box-shadow: 0 0 120px var(--c1), inset 0 0 80px rgba(0, 0, 20, 0.6);
+  filter: blur(1px);
+  animation: portal-pulse 6s ease-in-out infinite;
+  opacity: 0.75;
+}
+@keyframes drift {
+  to {
+    background-position: 340px 340px;
+  }
+}
+@keyframes portal-pulse {
+  50% {
+    transform: translateY(-50%) scale(1.06);
+    opacity: 0.9;
+  }
+}
+
+/* Procedural world art animations */
+@keyframes rain-fall {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(120%);
+  }
+}
+@keyframes dust-drift {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(110%);
+  }
+}
+@keyframes float-y {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes shimmer {
+  from {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  to {
+    transform: translateX(260%) skewX(-20deg);
+  }
+}
+@keyframes pulse-glow {
+  50% {
+    opacity: 0.45;
+    transform: scale(1.08);
+  }
+}
+.world-rain {
+  background-image: repeating-linear-gradient(100deg, rgba(190, 215, 255, 0.5) 0 1px, transparent 1px 14px);
+  background-size: 100% 100%;
+  animation: rain-fall 0.9s linear infinite;
+  opacity: 0.4;
+}
+
+/* Reduced motion: preference-driven (data-rm) or system */
+html[data-rm="1"] *,
+html[data-rm="1"] *::before,
+html[data-rm="1"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+html[data-rm="1"] .intro-gated[data-hidden="true"] {
+  animation: none;
+}
